@@ -1,0 +1,6 @@
+{
+  "name": "Instagram Unfollower Tracker (Offline)",
+  "description": "یک ابزار آفلاین برای تجزیه و تحلیل دنبال‌کنندگان و دنبال‌شوندگان اینستاگرام شما. فایل‌های followers.json و following.json خود را بارگذاری کنید تا ببینید چه کسانی شما را دنبال نمی‌کنند، طرفداران شما چه کسانی هستند و چه کسانی را به صورت متقابل دنبال می‌کنید.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
