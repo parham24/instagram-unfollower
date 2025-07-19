@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { WelcomeScreen } from './components/WelcomeScreen';
 import { ResultsDashboard } from './components/ResultsDashboard';
@@ -149,6 +148,17 @@ const App: React.FC = () => {
 
       <footer className="w-full max-w-5xl text-center mt-8 text-gray-500 text-sm">
           <p>این یک ابزار آفلاین است و به حساب اینستاگرام شما متصل نمی‌شود. تمام داده‌ها به صورت محلی در مرورگر شما پردازش می‌شوند.</p>
+          <p className="mt-4">
+            ساخته شده با ❤️ توسط 
+            <a 
+              href="https://instagram.com/JATI.IMAN"
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="font-semibold text-purple-400 hover:text-purple-300 transition-colors"
+            >
+              ایمان جاتی
+            </a>
+          </p>
       </footer>
     </div>
   );
