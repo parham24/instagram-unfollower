@@ -12,6 +12,8 @@ const App: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
 
   const parseInstagramFile = async (file: File): Promise<string[]> => {
+    // ... (بقیه کد بدون تغییر باقی می‌ماند)
+    // ... من برای خلاصه‌سازی، بخش‌های تکراری را حذف کردم، شما کل کد را کپی کنید
     return new Promise((resolve, reject) => {
       const reader = new FileReader();
       reader.onload = (event) => {
@@ -149,9 +151,10 @@ const App: React.FC = () => {
       <footer className="w-full max-w-5xl text-center mt-8 text-gray-500 text-sm">
           <p>این یک ابزار آفلاین است و به حساب اینستاگرام شما متصل نمی‌شود. تمام داده‌ها به صورت محلی در مرورگر شما پردازش می‌شوند.</p>
           <p className="mt-4">
-            ساخته شده با ❤️ توسط 
+            ساخته شده با ❤️ توسط
+            {' '} {/*  <-- این کد فاصله را تضمین می‌کند  */}
             <a 
-              href="https://instagram.com/JATI.IMAN"
+              href="https://instagram.com/jati.iman" //  <-- آیدی اینستاگرام شما
               target="_blank" 
               rel="noopener noreferrer" 
               className="font-semibold text-purple-400 hover:text-purple-300 transition-colors"
